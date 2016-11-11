@@ -94,3 +94,33 @@ ctx.drawImage(img,10,10);
 
 
 // End of: Examples of drawing on canvas.
+
+
+
+/*Create a Function to Set The Google Map Properties
+This example defines a Google Map centered in London, England:
+
+
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+
+    Example Explained
+The mapOptions variable defines the properties for the map.
+
+The center property specifies where to center the map (using latitude and longitude coordinates).
+
+The zoom property specifies the zoom level for the map (try to experiment with the zoom level).
+
+The mapTypeId property specifies the map type to display. The following map types are supported: ROADMAP, SATELLITE, HYBRID, and TERRAIN.
+
+The line: var map=new google.maps.Map(document.getElementById("map"), mapOptions); creates a new map inside the <div> element with id="map", using the parameters that are passed (mapOptions).
+
+
+End of Google Map example.
+*/
