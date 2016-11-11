@@ -1,8 +1,15 @@
 html {
   text-size-adjust: 100%;
 }
-
-body {
+/*body {
   margin: 0;
   font: 16px / 1 sans-serif;
+}
+    */
+p.intro {font-family: Verdana; font-size: 16em;}
+body {
+  background-color: lightgrey;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  font-size: 16em;
+  color: black;
 }
