@@ -8,524 +8,675 @@
     <script src="Script.js"></script>
   </head>
   <body>
+     
+
+
+          <a href="layout.html">layout.html</a>
+          <!--
+          This is a long comment example. This is a long comment example.
+          This is a long comment example. This is a long comment example.
+        -->
+
+          <h2>New HTML 5 Elements</h2>
+          <!--
+
+                  Below is a list of the new HTML5 elements, and a description of what they are used for.
+
+        New Semantic/Structural Elements
+        HTML5 offers new elements for better document structure:
+
+           Tag                  Description
+        <article>      Defines an article in the document
+        <aside>        Defines content aside from the page content
+        <bdi>          Defines a part of text that might be formatted in a different direction from other text
+        <details>      Defines additional details that the user can view or hide
+        <dialog>       Defines a dialog box or window
+        <figcaption>   Defines a caption for a <figure> element
+        <figure>       Defines self-contained content, like illustrations, diagrams, photos, code listings, etc.
+        <footer>       Defines a footer for the document or a section
+        <header>       Defines a header for the document or a section
+        <main>         Defines the main content of a document
+        <mark>         Defines marked or highlighted text
+        <menuitem>	   Defines a command/menu item that the user can invoke from a popup menu
+        <meter>        Defines a scalar measurement within a known range (a gauge)
+        <nav>          Defines navigation links in the document
+        <progress>     Defines the progress of a task
+        <rp>           Defines what to show in browsers that do not support ruby annotations
+        <rt>           Defines an explanation/pronunciation of characters (for East Asian typography)
+        <ruby>         Defines a ruby annotation (for East Asian typography)
+        <section>      Defines a section in the document
+        <summary>      Defines a visible heading for a <details> element
+        <time>         Defines a date/time
+        <wbr>          Defines a possible line-break
+
+
+        New Form Elements
+          Tag                   Description
+        <datalist>      Defines pre-defined options for input controls
+        <keygen>        Defines a key-pair generator field (for forms)
+        <output>        Defines the result of a calculation
+
+
+                                      New Input Types
+              New Input Types
+        color
+        date
+        datetime
+        datetime-local
+        email
+        month
+        number
+        range
+        search
+        tel
+        time
+        url
+        week
+
+              New Input Attributes
+
+        autocomplete
+        autofocus
+        form
+        formaction
+        formenctype
+        formmethod
+        formnovalidate
+        formtarget
+        height and width
+        list
+        min and max
+        multiple
+        pattern (regexp)
+        placeholder
+        required
+        step
+
+        HTML5 - New Attribute Syntax
+        HTML5 allows four different syntaxes for attributes.
+
+        This example demonstrates the different syntaxes used in an <input> tag:
+
+        Type               Example
+        Empty                  <input type="text" value="John" disabled>
+        Unquoted               <input type="text" value=John>
+        Double-quoted          <input type="text" value="John Doe">
+        Single-quoted          <input type="text" value='John Doe'>
+        In HTML5, all four syntaxes may be used, depending on what is needed for the attribute.
+
+        HTML5 Graphics
+          Tag                Description
+        <canvas>        Draw graphics, on the fly, via scripting (usually JavaScript)
+        <svg>           Draw scalable vector graphics
+
+
+        New Media Elements
+        Tag	          Description
+        <audio>	   Defines sound content
+        <embed>    Defines containers for external applications (like plug-ins)
+        <source>   Defines sources for <video> and <audio>
+        <track>    Defines tracks for <video> and <audio>
+        <video>    Defines video or movie content
+
+            -->
 
      
-   
-       <a href="layout.html">layout.html</a>
-      <!--
-      This is a long comment example. This is a long comment example.
-      This is a long comment example. This is a long comment example.
-    -->
-      
-      <h2>New HTML 5 Elements</h2>
-      <!--
-
-              Below is a list of the new HTML5 elements, and a description of what they are used for.
-
-    New Semantic/Structural Elements
-    HTML5 offers new elements for better document structure:
-
-       Tag                  Description
-    <article>      Defines an article in the document
-    <aside>        Defines content aside from the page content
-    <bdi>          Defines a part of text that might be formatted in a different direction from other text
-    <details>      Defines additional details that the user can view or hide
-    <dialog>       Defines a dialog box or window
-    <figcaption>   Defines a caption for a <figure> element
-    <figure>       Defines self-contained content, like illustrations, diagrams, photos, code listings, etc.
-    <footer>       Defines a footer for the document or a section
-    <header>       Defines a header for the document or a section
-    <main>         Defines the main content of a document
-    <mark>         Defines marked or highlighted text
-    <menuitem>	   Defines a command/menu item that the user can invoke from a popup menu
-    <meter>        Defines a scalar measurement within a known range (a gauge)
-    <nav>          Defines navigation links in the document
-    <progress>     Defines the progress of a task
-    <rp>           Defines what to show in browsers that do not support ruby annotations
-    <rt>           Defines an explanation/pronunciation of characters (for East Asian typography)
-    <ruby>         Defines a ruby annotation (for East Asian typography)
-    <section>      Defines a section in the document
-    <summary>      Defines a visible heading for a <details> element
-    <time>         Defines a date/time
-    <wbr>          Defines a possible line-break
 
 
-    New Form Elements
-      Tag                   Description
-    <datalist>      Defines pre-defined options for input controls
-    <keygen>        Defines a key-pair generator field (for forms)
-    <output>        Defines the result of a calculation
 
 
-                                  New Input Types
-          New Input Types
-    color
-    date
-    datetime
-    datetime-local
-    email
-    month
-    number
-    range
-    search
-    tel
-    time
-    url
-    week
 
-          New Input Attributes
+          <!--
+                          Semantics is the study of the meanings of words and phrases in a language.
 
-    autocomplete
-    autofocus
-    form
-    formaction
-    formenctype
-    formmethod
-    formnovalidate
-    formtarget
-    height and width
-    list
-    min and max
-    multiple
-    pattern (regexp)
-    placeholder
-    required
-    step
+                Semantic elements = elements with a meaning.
 
-    HTML5 - New Attribute Syntax
-    HTML5 allows four different syntaxes for attributes.
+                What are Semantic Elements?
+                A semantic element clearly describes its meaning to both the browser and the developer.
 
-    This example demonstrates the different syntaxes used in an <input> tag:
+                Examples of non-semantic elements: <div> and <span> - Tells nothing about its content.
 
-    Type               Example
-    Empty                  <input type="text" value="John" disabled>
-    Unquoted               <input type="text" value=John>
-    Double-quoted          <input type="text" value="John Doe">
-    Single-quoted          <input type="text" value='John Doe'>
-    In HTML5, all four syntaxes may be used, depending on what is needed for the attribute.
+                Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content.
 
-    HTML5 Graphics
-      Tag                Description
-    <canvas>        Draw graphics, on the fly, via scripting (usually JavaScript)
-    <svg>           Draw scalable vector graphics
+                          New Semantic Elements in HTML5
+                Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer">
+                to indicate navigation, header, and footer.
+
+                HTML5 offers new semantic elements to define different parts of a web page:
+
+                <article>
+                <aside>
+                <details>
+                <figcaption>
+                <figure>
+                <footer>
+                <header>
+                <main>
+                <mark>
+                <nav>
+                <section>
+                <summary>
+                <time>
 
 
-    New Media Elements
-    Tag	          Description
-    <audio>	   Defines sound content
-    <embed>    Defines containers for external applications (like plug-ins)
-    <source>   Defines sources for <video> and <audio>
-    <track>    Defines tracks for <video> and <audio>
-    <video>    Defines video or movie content
-    -->
+                HTML5 Semantic Elements
+                                              HTML5 <section> Element
+                The <section> element defines a section in a document.
 
-      
-      <section>
+                According to W3C's HTML5 documentation: "A section is a thematic grouping of content, typically with a heading."
+                A home page could normally be split into sections for introduction, content, and contact information.
+
+                Example:
+
+                <section>
+                  <h1>WWF</h1>
+                  <p>The World Wide Fund for Nature (WWF) is....</p>
+                </section>
+
+                                              HTML5 <article> Element
+
+                The <article> element specifies independent, self-contained content.
+                An article should make sense on its own, and it should be possible to read it independently from the rest of the web site.
+
+                Examples of where an <article> element can be used:
+
+                Forum post
+                Blog post
+                Newspaper article
+                Example:
+
+                <article>
+                  <h1>What Does WWF Do?</h1>
+                  <p>WWF's mission is to stop the degradation of our planet's natural environment,
+                  and build a future in which humans live in harmony with nature.</p>
+                </article>
+
+                                Nesting <article> in <section> or Vice Versa?
+
+                The <article> element specifies independent, self-contained content.
+                The <section> element defines section in a document.
+                Can we use the definitions to decide how to nest those elements? No, we cannot!
+                So, on the Internet, you will find HTML pages with <section> elements containing <article> elements, and <article> elements containing <sections> elements.
+                You will also find pages with <section> elements containing <section> elements, and <article> elements containing <article> elements.
+                Example for a newspaper: The sport articles in the sport section, may have a technical section in each article.
+
+                                            HTML5 <header> Element
+
+                The <header> element specifies a header for a document or section.
+                The <header> element should be used as a container for introductory content.
+                You can have several <header> elements in one document.
+                The following example defines a header for an article:
+
+                Example:
+
+                <article>
+                  <header>
+                    <h1>What Does WWF Do?</h1>
+                    <p>WWF's mission:</p>
+                  </header>
+                  <p>WWF's mission is to stop the degradation of our planet's natural environment,
+                  and build a future in which humans live in harmony with nature.</p>
+                </article>
+
+                                           HTML5 <footer> Element
+
+                The <footer> element specifies a footer for a document or section.
+                A <footer> element should contain information about its containing element.
+                A footer typically contains the author of the document, copyright information, links to terms of use, contact information, etc.
+                You may have several <footer> elements in one document.
+
+                Example:
+
+                <footer>
+                  <p>Posted by: Hege Refsnes</p>
+                  <p>Contact information: <a href="mailto:someone@example.com">
+                  someone@example.com</a>.</p>
+                </footer>
+
+
+                                            HTML5 <nav> Element
+
+                The <nav> element defines a set of navigation links.
+                Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links.
+
+                Example:
+
+                <nav>
+                  <a href="/html/">HTML</a> |
+                  <a href="/css/">CSS</a> |
+                  <a href="/js/">JavaScript</a> |
+                  <a href="/jquery/">jQuery</a>
+                </nav>
+
+                                             HTML5 <aside> Element
+
+                The <aside> element defines some content aside from the content it is placed in (like a sidebar).
+                The aside content should be related to the surrounding content.
+
+                Example:
+
+                <p>My family and I visited The Epcot center this summer.</p>
+
+                <aside>
+                  <h4>Epcot Center</h4>
+                  <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+                </aside>
+
+                                     HTML5 <figure> and <figcaption> Elements
+
+                The purpose of a figure caption is to add a visual explanation to an image.
+                In HTML5, an image and a caption can be grouped together in a <figure> element:
+
+                Example:
+
+                <figure>
+                  <img src="pic_mountain.jpg" alt="The Pulpit Rock" width="304" height="228">
+                  <figcaption>Fig1. - The Pulpit Rock, Norway.</figcaption>
+                </figure>
+
+                The <img> element defines the image, the <figcaption> element defines the caption.
+
+
+                                              Why Semantic Elements?
+
+                With HTML4, developers used their own id/class names to style elements: header, top, bottom, footer, menu, navigation, main, container, content, article, sidebar, topnav, etc.
+                This made it impossible for search engines to identify the correct web page content.
+                With the new HTML5 elements (<header> <footer> <nav> <section> <article>), this will become easier.
+                According to the W3C, a Semantic Web: "Allows data to be shared and reused across applications, enterprises, and communities."
+
+
+                                                 Image Attributes
+
+        Always add the "alt" attribute to images. This attribute is important when the image for some reason cannot be displayed.
+        Also, always define image width and height. It reduces flickering because the browser can reserve space for the image before loading.
+                            -->
+
+
+          
+
+    <section>
+
         <h2>This is a Table.</h2>
 
 
-          <table>
-              <tr>
-                  <th>Name</th>
-                  <th>Description</th>
-              </tr>
-              <tr>
-                  <td>A</td>
-                  <td>Description of A</td>
-              </tr>
-              <tr>
-                  <td>B</td>
-                  <td>Description of B</td>
-              </tr>
-          </table>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>A</td>
+                <td>Description of A</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Description of B</td>
+            </tr>
+        </table>
 
-          <ol>
-              <li>London</li>
-              <li>Paris</li>
-              <li>Tokyo</li>
-          </ol>
-          <!--  Canvas for drawing with JavaScript. -->
-          <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+        <ol>
+            <li>London</li>
+            <li>Paris</li>
+            <li>Tokyo</li>
+        </ol>
+        <!--  Canvas for drawing with JavaScript. -->
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
 
-          <!--   SVG stands for Scalable Vector Graphics.  SVG is used to define graphics for the Web.
-            The HTML <svg> element is a container for SVG graphics.
-            SVG has several methods for drawing paths, boxes, circles, text, and graphic images.  -->
-          <!--SVG circle-->
-          <svg width="100" height="100">
-              <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
-          </svg>
-          <!--SVG rectangle-->
-          <svg width="400" height="100">
-              <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
-          </svg>
-          <!--SVG Rounded rectangle-->
-          <svg width="400" height="180">
-              <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
-                    style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
-          </svg>
-          <!--SVG Star-->
-          <svg width="300" height="200">
-              <polygon points="100,10 40,198 190,78 10,78 160,198"
-                       style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
-          </svg>
-          <!--SVG Logo-->
-          <svg height="130" width="500">
-              <defs>
-                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
-                      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
-                  </linearGradient>
-              </defs>
-              <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
-              <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
-              Sorry, your browser does not support inline SVG.
-          </svg>
-      </section>
+        <!--   SVG stands for Scalable Vector Graphics.  SVG is used to define graphics for the Web.
+        The HTML <svg> element is a container for SVG graphics.
+        SVG has several methods for drawing paths, boxes, circles, text, and graphic images.  -->
+        <!--SVG circle-->
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+        </svg>
+        <!--SVG rectangle-->
+        <svg width="400" height="100">
+            <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+        </svg>
+        <!--SVG Rounded rectangle-->
+        <svg width="400" height="180">
+            <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+                  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+        </svg>
+        <!--SVG Star-->
+        <svg width="300" height="200">
+            <polygon points="100,10 40,198 190,78 10,78 160,198"
+                     style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+        </svg>
+        <!--SVG Logo-->
+        <svg height="130" width="500">
+            <defs>
+                <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                </linearGradient>
+            </defs>
+            <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+            <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+            Sorry, your browser does not support inline SVG.
+        </svg>
+    </section>
 
     <!--Differences Between SVG and Canvas
-SVG is a language for describing 2D graphics in XML.
+    SVG is a language for describing 2D graphics in XML.
 
-Canvas draws 2D graphics, on the fly (with a JavaScript).
+    Canvas draws 2D graphics, on the fly (with a JavaScript).
 
-SVG is XML based, which means that every element is available within the SVG DOM. You can attach JavaScript event handlers for an element.
+    SVG is XML based, which means that every element is available within the SVG DOM. You can attach JavaScript event handlers for an element.
 
-In SVG, each drawn shape is remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape.
+    In SVG, each drawn shape is remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape.
 
-Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser.
+    Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser.
 
-If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic.
+    If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic.
 
--->
+    -->
+    <!--  Comparison of Canvas and SVG
+    The table below shows some important differences between Canvas and SVG:
 
-      <!--  Comparison of Canvas and SVG
-The table below shows some important differences between Canvas and SVG:
+    Canvas:
+    Resolution dependent
+    No support for event handlers
+    Poor text rendering capabilities
+    You can save the resulting image as .png or .jpg
+    Well suited for graphic-intensive games
 
-Canvas:	
-Resolution dependent
-No support for event handlers
-Poor text rendering capabilities
-You can save the resulting image as .png or .jpg
-Well suited for graphic-intensive games
+    SVG:
+    Resolution independent
+    Support for event handlers
+    Best suited for applications with large rendering areas (Google Maps)
+    Slow rendering if complex (anything that uses the DOM a lot will be slow)
+    Not suited for game applications
+                 -->
+    <!--   Google Maps allows you to display maps on your web page.
 
-SVG:
-Resolution independent
-Support for event handlers
-Best suited for applications with large rendering areas (Google Maps)
-Slow rendering if complex (anything that uses the DOM a lot will be slow)
-Not suited for game applications 
-             -->
-    
-
-
-
-
-
-
-
-
-        <!--   Google Maps allows you to display maps on your web page.
-         
-
-      <h1>My First Google Map</h1>
-
-      <div id="map">My map will go here</div>   
-
-         Set the map size.
-
-      <div id="map" style="width:400px;height:400px"></div>
-
-        Create a Function to Set The Map Properties
-This example defines a Google Map centered in London, England:  See Script.js file for JavaScript.
-          
-          
-             Add the Google Maps API
-           show the map on the page!
-
-        The functionality of the map is provided by a JavaScript library located at Google. 
-        Add a script to refer to the Google Maps API with a callback to the myMap function:
-
-            <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>  -->
-
-
-
-      <section>
 
           <h1>My First Google Map</h1>
 
-          <div id="map" style="width:400px;height:400px;background:yellow"></div>
+          <div id="map">My map will go here</div>
 
-          <script>
-              function myMap() {
-                  var mapOptions = {
-                      center: new google.maps.LatLng(51.5, -0.12),
-                      zoom: 10,
-                      mapTypeId: google.maps.MapTypeId.HYBRID
-                  }
-                  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-              }
-          </script>
+             Set the map size.
 
-          <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+          <div id="map" style="width:400px;height:400px"></div>
 
-      </section>
+            Create a Function to Set The Map Properties
+    This example defines a Google Map centered in London, England:  See Script.js file for JavaScript.
 
-      <!--End of Google Map example-->
 
+                 Add the Google Maps API
+               show the map on the page!
 
+            The functionality of the map is provided by a JavaScript library located at Google.
+            Add a script to refer to the Google Maps API with a callback to the myMap function:
 
-      <!--  HTML Multimedia 
-         
-        MP4 is the new and upcoming format for internet video.
+                <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>  -->
 
-        MP4 is recommended by YouTube.
+    <section>
 
-        MP4 is supported by Flash Players.
+        <h1>My First Google Map</h1>
 
-        MP4 is supported by HTML5. 
+        <div id="map" style="width:400px;height:400px;background:yellow"></div>
 
-      **  Common Video Formats  **
+        <script>
+            function myMap() {
+                var mapOptions = {
+                    center: new google.maps.LatLng(51.5, -0.12),
+                    zoom: 10,
+                    mapTypeId: google.maps.MapTypeId.HYBRID
+                }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            }
+        </script>
 
-   Format	       File	                                                Description
-MPEG          .mpg .mpeg MPEG.                             Developed by the Moving Pictures Expert Group. The first popular video format on the web. Used to be supported by all browsers, but it is not supported in HTML5 (See MP4).
-AVI	          .avi AVI (Audio Video Interleave).           Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.
-WMV	          .wmv WMV (Windows Media Video).             Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.
-QuickTime     .mov QuickTime.                             Developed by Apple. Commonly used in video cameras and TV hardware. Plays well on Apple computers, but not in web browsers. (See MP4)
-RealVideo     .rm .ram RealVideo.                          Developed by Real Media to allow video streaming with low bandwidths. It is still used for online video and Internet TV, but does not play in web browsers.
-Flash	      .swf .flv Flash.                             Developed by Macromedia. Often requires an extra component (plug-in) to play in web browsers.
-Ogg	          .ogg Theora Ogg.                            Developed by the Xiph.Org Foundation. Supported by HTML5.
-WebM          .webm WebM.                                  Developed by the web giants, Mozilla, Opera, Adobe, and Google. Supported by HTML5.
-MPEG-4 or MP4 .mp4 MP4.                                   Developed by the Moving Pictures Expert Group. Based on QuickTime. Commonly used in newer video cameras and TV hardware. Supported by all HTML5 browsers. Recommended by YouTube. 
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
-Only MP4, WebM, and Ogg video are supported by the HTML5 standard.
+    </section>
+    <!--End of Google Map example-->
+    <!--  HTML Multimedia
 
-       
-          **   Audio Formats  **
+            MP4 is the new and upcoming format for internet video.
 
-MP3 is the newest format for compressed recorded music. The term MP3 has become synonymous with digital music.
+            MP4 is recommended by YouTube.
 
-If your website is about recorded music, MP3 is the choice.
+            MP4 is supported by Flash Players.
 
-  Format	    File	                             Description
-MIDI         .mid  .midi       MIDI (Musical Instrument Digital Interface). Main format for all electronic music devices like synthesizers and PC sound cards. MIDI files do not contain sound, but digital notes that can be played by electronics. Plays well on all computers and music hardware, but not in web browsers.
-RealAudio	 .rm   .ram	       RealAudio. Developed by Real Media to allow streaming of audio with low bandwidths. Does not play in web browsers.
-WMA	         .wma              WMA (Windows Media Audio). Developed by Microsoft. Commonly used in music players. Plays well on Windows computers, but not in web browsers.
-AAC	         .aac              AAC (Advanced Audio Coding). Developed by Apple as the default format for iTunes. Plays well on Apple computers, but not in web browsers.
-WAV	         .wav              WAV. Developed by IBM and Microsoft. Plays well on Windows, Macintosh, and Linux operating systems. Supported by HTML5.
-Ogg	         .ogg              Ogg. Developed by the Xiph.Org Foundation. Supported by HTML5.
-MP3	         .mp3              MP3 files are actually the sound part of MPEG files. MP3 is the most popular format for music players. Combines good compression (small files) with high quality. Supported by all browsers.
-MP4          .mp4              MP4 is a video format, but can also be used for audio. MP4 video is the upcoming video format on the internet. This leads to automatic support for MP4 audio by all browsers.
+            MP4 is supported by HTML5.
 
-          -->
+          **  Common Video Formats  **
 
+       Format	       File	                                                Description
+    MPEG          .mpg .mpeg               MPEG.                         Developed by the Moving Pictures Expert Group. The first popular video format on the web. Used to be supported by all browsers, but it is not supported in HTML5 (See MP4).
+    AVI	          .avi                     AVI (Audio Video Interleave). Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.
+    WMV	          .wmv                     WMV (Windows Media Video).    Developed by Microsoft. Commonly used in video cameras and TV hardware. Plays well on Windows computers, but not in web browsers.
+    QuickTime     .mov                     QuickTime.                    Developed by Apple. Commonly used in video cameras and TV hardware. Plays well on Apple computers, but not in web browsers. (See MP4)
+    RealVideo     .rm .ram                 RealVideo.                    Developed by Real Media to allow video streaming with low bandwidths. It is still used for online video and Internet TV, but does not play in web browsers.
+    Flash	      .swf .flv                Flash.                        Developed by Macromedia. Often requires an extra component (plug-in) to play in web browsers.
+    Ogg	          .ogg                     Theora Ogg.                   Developed by the Xiph.Org Foundation. Supported by HTML5.
+    WebM          .webm                    WebM.                         Developed by the web giants, Mozilla, Opera, Adobe, and Google. Supported by HTML5.
+    MPEG-4 or MP4 .mp4                     MP4.                          Developed by the Moving Pictures Expert Group. Based on QuickTime. Commonly used in newer video cameras and TV hardware. Supported by all HTML5 browsers. Recommended by YouTube.
 
-        <!-- HTML5 Video Example
+    Only MP4, WebM, and Ogg video are supported by the HTML5 standard.
 
-            Before HTML5, a video could only be played in a browser with a plug-in (like flash).
-
-      The HTML5 <video> element specifies a standard way to embed a video in a web page.
 
-            <video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
+              **   Audio Formats  **
 
-           * How it Works *
-The controls attribute adds video controls, like play, pause, and volume.
+    MP3 is the newest format for compressed recorded music. The term MP3 has become synonymous with digital music.
 
-It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.
+    If your website is about recorded music, MP3 is the choice.
 
-The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+      Format	    File	                             Description
+    MIDI         .mid  .midi       MIDI (Musical Instrument Digital Interface). Main format for all electronic music devices like synthesizers and PC sound cards. MIDI files do not contain sound, but digital notes that can be played by electronics. Plays well on all computers and music hardware, but not in web browsers.
+    RealAudio	 .rm   .ram	       RealAudio. Developed by Real Media to allow streaming of audio with low bandwidths. Does not play in web browsers.
+    WMA	         .wma              WMA (Windows Media Audio). Developed by Microsoft. Commonly used in music players. Plays well on Windows computers, but not in web browsers.
+    AAC	         .aac              AAC (Advanced Audio Coding). Developed by Apple as the default format for iTunes. Plays well on Apple computers, but not in web browsers.
+    WAV	         .wav              WAV. Developed by IBM and Microsoft. Plays well on Windows, Macintosh, and Linux operating systems. Supported by HTML5.
+    Ogg	         .ogg              Ogg. Developed by the Xiph.Org Foundation. Supported by HTML5.
+    MP3	         .mp3              MP3 files are actually the sound part of MPEG files. MP3 is the most popular format for music players. Combines good compression (small files) with high quality. Supported by all browsers.
+    MP4          .mp4              MP4 is a video format, but can also be used for audio. MP4 video is the upcoming video format on the internet. This leads to automatic support for MP4 audio by all browsers.
 
-The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
-           
-            
-             To start a video automatically use the autoplay attribute:
-                                               |
-                                             vvvvv
-                                               v
-            <video width="320" height="240" autoplay>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-            The autoplay attribute does not work in mobile devices like iPad and iPhone.
-
-            HTML Video - Browser Support
-In HTML5, there are 3 supported video formats: MP4, WebM, and Ogg.
-
-The browser support for the different formats is:
-
-Browser     MP4    WebM    Ogg
-Internet
-Explorer    YES      NO     NO
-Chrome      YES	     YES    YES
-Firefox     YES      YES    YES
-Safari      YES	     NO     NO
-Opera       YES      YES    YES
-      (from Opera 25)
-
-            HTML Video - Methods, Properties, and Events
-HTML5 defines DOM methods, properties, and events for the <video> element.
-
-This allows you to load, play, and pause videos, as well as setting duration and volume.
-
-There are also DOM events that can notify you when a video begins to play, is paused, etc.
-
-            Example: Using JavaScript
-            ---------------------------------------------------------------------------------------------------
-
-            <div style="text-align:center">
-  <button onclick="playPause()">Play/Pause</button>
-  <button onclick="makeBig()">Big</button>
-  <button onclick="makeSmall()">Small</button>
-  <button onclick="makeNormal()">Normal</button>
-  <br><br>
-  <video id="video1" width="420">
-    <source src="mov_bbb.mp4" type="video/mp4">
-    <source src="mov_bbb.ogg" type="video/ogg">
-    Your browser does not support HTML5 video.
-  </video>
-</div>
-
-<script>
-var myVideo = document.getElementById("video1");
-
-function playPause() {
-    if (myVideo.paused)
-        myVideo.play();
-    else
-        myVideo.pause();
-}
+              -->
+    <!-- HTML5 Video Example
 
-function makeBig() {
-    myVideo.width = 560;
-}
-
-function makeSmall() {
-    myVideo.width = 320;
-}
-
-function makeNormal() {
-    myVideo.width = 420;
-}
-</script>
-
-<p>Video courtesy of <a href="http://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+                Before HTML5, a video could only be played in a browser with a plug-in (like flash).
 
-            --------------------------------------------------------------------------------------------------
-           
-            HTML5 Video Tags
-Tag              	Description
-<video>        	Defines a video or movie
-<source>	    Defines multiple media resources for media elements, such as <video> and <audio>
-<track>     	Defines text tracks in media players
-             -->
-    
-
-
-
-      <section>
-
-          <div style="text-align:center">
-              <button onclick="playPause()">Play/Pause</button>
-              <button onclick="makeBig()">Big</button>
-              <button onclick="makeSmall()">Small</button>
-              <button onclick="makeNormal()">Normal</button>
-              <br><br>
-              <video id="video1" width="420">
-                  <source src="mov_bbb.mp4" type="video/mp4">
-                  <source src="mov_bbb.ogg" type="video/ogg">
-                  Your browser does not support HTML5 video.
-              </video>
-          </div>
-
-          <script>
-              var myVideo = document.getElementById("video1");
-
-              function playPause() {
-                  if (myVideo.paused)
-                      myVideo.play();
-                  else
-                      myVideo.pause();
-              }
-
-              function makeBig() {
-                  myVideo.width = 560;
-              }
-
-              function makeSmall() {
-                  myVideo.width = 320;
-              }
-
-              function makeNormal() {
-                  myVideo.width = 420;
-              }
-          </script>
-
-          <p>Video courtesy of <a href="http://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
-      </section>
-
-      <!--End of video example-->
-
-
-      <!--  HTML5 Audio
-
-          Audio on the Web
-Before HTML5, audio files could only be played in a browser with a plug-in (like flash).
-
-The HTML5 <audio> element specifies a standard way to embed audio in a web page.
-
-        The HTML <audio> Element
-
-          <audio controls>
-  <source src="horse.ogg" type="audio/ogg">
-  <source src="horse.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
-          HTML Audio - How It Works
-The controls attribute adds audio controls, like play, pause, and volume.
-
-The <source> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.
-
-The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.
-
-          HTML Audio - Browser Support
-In HTML5, there are 3 supported audio formats: MP3, Wav, and Ogg.
-
-The browser support for the different formats is: 
-
-Browser	    MP3	    Wav	   Ogg
-Internet
-Explorer    YES	    NO     NO
-Chrome      YES     YES	   YES
-Firefox	    YES	    YES	   YES
-Safari      YES	    YES	   NO
-Opera       YES     YES    YES
-          
-          HTML Audio - Methods, Properties, and Events
-HTML5 defines DOM methods, properties, and events for the <audio> element.
-
-This allows you to load, play, and pause audios, as well as set duration and volume.
-
-There are also DOM events that can notify you when an audio begins to play, is paused, etc.
-
-          HTML5 Audio Tags
-Tag        	Description
-<audio>	  Defines sound content
-<source>  Defines multiple media resources for media elements, such as <video> and <audio>
-      
--->
-
-      <section>
-          <audio controls>
-              <source src="horse.ogg" type="audio/ogg">
-              <source src="horse.mp3" type="audio/mpeg">
-              Your browser does not support the audio element.
-          </audio>
-          <!--End of Audio Example-->
-          <!--HTML Helpers (Plug-ins)
+          The HTML5 <video> element specifies a standard way to embed a video in a web page.
+
+                <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+
+               * How it Works *
+    The controls attribute adds video controls, like play, pause, and volume.
+
+    It is a good idea to always include width and height attributes. If height and width are not set, the page might flicker while the video loads.
+
+    The <source> element allows you to specify alternative video files which the browser may choose from. The browser will use the first recognized format.
+
+    The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element.
+
+
+                 To start a video automatically use the autoplay attribute:
+                                                   |
+                                                 vvvvv
+                                                   v
+                <video width="320" height="240" autoplay>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+    </video>
+                The autoplay attribute does not work in mobile devices like iPad and iPhone.
+
+                HTML Video - Browser Support
+    In HTML5, there are 3 supported video formats: MP4, WebM, and Ogg.
+
+    The browser support for the different formats is:
+
+    Browser     MP4    WebM    Ogg
+    Internet
+    Explorer    YES      NO     NO
+    Chrome      YES	     YES    YES
+    Firefox     YES      YES    YES
+    Safari      YES	     NO     NO
+    Opera       YES      YES    YES
+          (from Opera 25)
+
+                HTML Video - Methods, Properties, and Events
+    HTML5 defines DOM methods, properties, and events for the <video> element.
+
+    This allows you to load, play, and pause videos, as well as setting duration and volume.
+
+    There are also DOM events that can notify you when a video begins to play, is paused, etc.
+
+                Example: Using JavaScript
+                ---------------------------------------------------------------------------------------------------
+
+                <div style="text-align:center">
+      <button onclick="playPause()">Play/Pause</button>
+      <button onclick="makeBig()">Big</button>
+      <button onclick="makeSmall()">Small</button>
+      <button onclick="makeNormal()">Normal</button>
+      <br><br>
+      <video id="video1" width="420">
+        <source src="mov_bbb.mp4" type="video/mp4">
+        <source src="mov_bbb.ogg" type="video/ogg">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
+
+    <script>
+    var myVideo = document.getElementById("video1");
+
+    function playPause() {
+        if (myVideo.paused)
+            myVideo.play();
+        else
+            myVideo.pause();
+    }
+
+    function makeBig() {
+        myVideo.width = 560;
+    }
+
+    function makeSmall() {
+        myVideo.width = 320;
+    }
+
+    function makeNormal() {
+        myVideo.width = 420;
+    }
+    </script>
+
+    <p>Video courtesy of <a href="http://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+
+                --------------------------------------------------------------------------------------------------
+
+                HTML5 Video Tags
+    Tag              	Description
+    <video>        	Defines a video or movie
+    <source>	    Defines multiple media resources for media elements, such as <video> and <audio>
+    <track>     	Defines text tracks in media players
+                 -->
+
+
+    <section>
+
+        <div style="text-align:center">
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br><br>
+            <video id="video1" width="420">
+                <source src="mov_bbb.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <script>
+            var myVideo = document.getElementById("video1");
+
+            function playPause() {
+                if (myVideo.paused)
+                    myVideo.play();
+                else
+                    myVideo.pause();
+            }
+
+            function makeBig() {
+                myVideo.width = 560;
+            }
+
+            function makeSmall() {
+                myVideo.width = 320;
+            }
+
+            function makeNormal() {
+                myVideo.width = 420;
+            }
+        </script>
+
+        <p>Video courtesy of <a href="http://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.</p>
+    </section>
+    <!--End of video example-->
+    <!--  HTML5 Audio
+
+              Audio on the Web
+    Before HTML5, audio files could only be played in a browser with a plug-in (like flash).
+
+    The HTML5 <audio> element specifies a standard way to embed audio in a web page.
+
+            The HTML <audio> Element
+
+              <audio controls>
+      <source src="horse.ogg" type="audio/ogg">
+      <source src="horse.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+              HTML Audio - How It Works
+    The controls attribute adds audio controls, like play, pause, and volume.
+
+    The <source> element allows you to specify alternative audio files which the browser may choose from. The browser will use the first recognized format.
+
+    The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element.
+
+              HTML Audio - Browser Support
+    In HTML5, there are 3 supported audio formats: MP3, Wav, and Ogg.
+
+    The browser support for the different formats is:
+
+    Browser	    MP3	    Wav	   Ogg
+    Internet
+    Explorer    YES	    NO     NO
+    Chrome      YES     YES	   YES
+    Firefox	    YES	    YES	   YES
+    Safari      YES	    YES	   NO
+    Opera       YES     YES    YES
+
+              HTML Audio - Methods, Properties, and Events
+    HTML5 defines DOM methods, properties, and events for the <audio> element.
+
+    This allows you to load, play, and pause audios, as well as set duration and volume.
+
+    There are also DOM events that can notify you when an audio begins to play, is paused, etc.
+
+              HTML5 Audio Tags
+    Tag        	Description
+    <audio>	  Defines sound content
+    <source>  Defines multiple media resources for media elements, such as <video> and <audio>
+
+    -->
+    <section>
+        <audio controls>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <!--End of Audio Example-->
+        <!--HTML Helpers (Plug-ins)
         Helper applications (plug-ins) are computer programs that extend the standard functionality of a web browser.
 
         Examples of well-known plug-ins are Java applets.
@@ -572,10 +723,10 @@ Tag        	Description
 
 
         -->
-          <object width="400" height="50" data="bookmark.swf"></object>
-          <embed width="400" height="50" src="bookmark.swf">
-          <!--End of Object and Embed Examples-->
-          <!--
+        <object width="400" height="50" data="bookmark.swf"></object>
+        <embed width="400" height="50" src="bookmark.swf">
+        <!--End of Object and Embed Examples-->
+        <!--
 
               HTML YouTube Videos Example
 
@@ -661,20 +812,17 @@ Tag        	Description
 
         -->
 
-          <object width="420" height="315"
-                  data="http://www.youtube.com/embed/XGSy3_Czz8k"></object>
+        <object width="420" height="315"
+                data="http://www.youtube.com/embed/XGSy3_Czz8k"></object>
 
 
-          <embed width="420" height="315"
-                 src="http://www.youtube.com/embed/XGSy3_Czz8k">
+        <embed width="420" height="315"
+               src="http://www.youtube.com/embed/XGSy3_Czz8k">
 
-          <!--End of YouTube Example-->
-      </section>
-      <section>
-      
-      </section>
-       <a href="layout.html">layout.html</a>
-   
+        <!--End of YouTube Example-->
+    </section>
+    <section></section>
+    <a href="layout.html">layout.html</a>
 
 </body>
 </html>
