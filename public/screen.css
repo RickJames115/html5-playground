@@ -1,14 +1,23 @@
 html {
   text-size-adjust: 100%;
 }
-body {
-  margin: 0;
-  font: 16px / 1 sans-serif;
+
+#name {
+  
 }
-   
-
-p.intro {font-family: Verdana; font-size: 5em;}
-
+nav {
+   text-align: right;
+ font-size:.5em;
+}
+nav ul li {
+    display:inline-block;
+     text-align: left;
+}
+a {
+    display:block;
+    font-size:.5em;
+  
+}
 body {
   background-color: lightgrey;
   font-family: "Arial Black", Helvetica, sans-serif;
